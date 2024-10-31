@@ -20,17 +20,32 @@ This lab stands to prepare the moderngl development environment. Below the steps
 
 ## How to run your program
 
-```
-# Update this section with instructions on how to run your programs. 
+To run the programs on a Linux machine (Ubuntu 22.04) or on Windows, follow these steps:
 
-# Consider that these instructions will be executed 
-in a completely new linux-based machine (Ubuntu 22.04),
-so, instructions for dependencies installation must be added.
+### On Windows:
 
-# It's highly recommended to use python virtual envs. 
-You may take a look on:
-https://docs.python.org/3/library/venv.html
-```
+1. First, my teacher Obed gave us a link for the activity: [https://classroom.github.com/a/swKMSSMl](https://classroom.github.com/a/swKMSSMl). When I entered, I had to log in to GitHub Classroom.
+2. After accepting the assignment, I saw that my repository was created: https://github.com/CodersSquad/cg-booting-up-DanielaRochaMunoz.
+3. I tried to use the "Open in Visual Studio Code" button, but it didn’t work, so I did this:
+    - I went to the GitHub page of the repository.
+    - I clicked on the "Code" button and copied the HTTPS link.
+    - I opened **Visual Studio Code** on my computer and selected to clone a repository. I pasted the link and it cloned the repo.
+4. Now I could see all the files for the activity, including the .py scripts and the README.
+5. I installed the necessary dependencies using this command in the terminal:  
+   `pip install moderngl pygame PyGLM==2.7.3 numpy Pillow moderngl-window objloader`
+6. For the last exercise, I searched for the images I needed, saved them in the project folder, and changed the code to use those images.
+
+### On Ubuntu (Linux):
+
+1. Make sure you have Python 3 and pip installed on your machine.
+2. Clone the GitHub repository using this command:  
+   `git clone https://github.com/CodersSquad/cg-booting-up-DanielaRochaMunoz`  
+   `cd cg-booting-up-DanielaRochaMunoz`
+3. Install the necessary dependencies with this command:  
+   `pip install moderngl pygame PyGLM==2.7.3 numpy Pillow moderngl-window objloader`
+4. Run the .py files using this command, replacing filename.py with the file you want to run:  
+   `python filename.py`
+5. For the file `09_models_and_images.py`, make sure the images you downloaded are in the same project folder and that the code has the correct path to those images.
 
 ## Grading Policy
 
